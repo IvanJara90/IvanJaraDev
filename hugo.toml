@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ivanjara90.github.io/ivans-techcraft/'
 languageCode = 'en-us'
 title = "Ivan's TechCraft"
 theme = 'PaperMod'
@@ -7,23 +7,23 @@ theme = 'PaperMod'
   profileMode.enabled = true
   profileMode.title = "Ivan's TechCraft"
   profileMode.subtitle = "Welcome to my digital space for code, projects, and ideas."
-  profileMode.imageUrl = ""
+  profileMode.imageUrl = "/images/profile.jpg"
   profileMode.imageWidth = 120
   profileMode.imageHeight = 120
   profileMode.imageTitle = "profile picture"
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/IvanJara90"
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://linkedin.com/in/"
+    url = "https://www.linkedin.com/in/ivan-jara-recruter/"
   [[params.socialIcons]]
     name = "reddit"
-    url = "https://www.reddit.com/user/"
+    url = "https://www.reddit.com/user/IvanJara/"
   [[params.socialIcons]]
     name = "twitter"
-    url = "https://twitter.com/"
+    url = "https://x.com/IvanJarBaq"
 
 [[menu.main]]
   identifier = "blog"
