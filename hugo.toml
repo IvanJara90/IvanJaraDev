@@ -1,11 +1,11 @@
-baseURL = 'https://ivanjara90.github.io/ivans-techcraft/'
+baseURL = 'https://ivanjara90.github.io/IvanJaraDev/'
 languageCode = 'en-us'
-title = "Ivan's TechCraft"
+title = "IvanJaraDev"
 theme = 'PaperMod'
 
 [params]
   profileMode.enabled = true
-  profileMode.title = "Ivan's TechCraft"
+  profileMode.title = "IvanJaraDev"
   profileMode.subtitle = "Welcome to my digital space for code, projects, and ideas."
   profileMode.imageUrl = "/images/profile.jpg"
   profileMode.imageWidth = 120

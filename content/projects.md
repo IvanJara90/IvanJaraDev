@@ -8,11 +8,11 @@ Welcome to my projects page! Here you'll find a selection of my work, from perso
 
 ---
 
-### Project 1: Awesome App
+### Our Website's Progress
 
-- **Description**: An application that does something awesome. Built with Go and React.
-- **Status**: In Development
-- **Link**: [GitHub Repository](https://github.com/)
+- **Description**: I am learning to build and deploy this personal portfolio website with the help of Google's Gemini. The site is built with Hugo and the PaperMod theme, and the process has been supported by the official documentation from Hugo and the theme's GitHub repository. This project showcases the process of setting up a static site, customizing it, and deploying it with GitHub Pages.
+- **Status**: In Progress
+- **Link**: [GitHub Repository](https://github.com/IvanJara90/IvanJaraDev)
 
 ### Project 2: Cool CLI Tool
 
