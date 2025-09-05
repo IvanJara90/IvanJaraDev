@@ -7,9 +7,9 @@ theme = 'PaperMod'
   profileMode.enabled = true
   profileMode.title = "IvanJaraDev"
   profileMode.subtitle = "Welcome to my digital space for code, projects, and ideas."
-  profileMode.imageUrl = "/images/profile.jpg"
-  profileMode.imageWidth = 120
-  profileMode.imageHeight = 120
+  profileMode.imageUrl = "images/profile.jpg"
+  profileMode.imageWidth = 200
+  profileMode.imageHeight = 200
   profileMode.imageTitle = "profile picture"
 
   [[params.socialIcons]]
