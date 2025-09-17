@@ -4,6 +4,7 @@ title = "IvanJaraDev"
 theme = 'PaperMod'
 
 [params]
+  customCSS = ["css/custom.css"]
   profileMode.enabled = true
   profileMode.title = "IvanJaraDev"
   profileMode.subtitle = "Welcome to my digital space for code, projects, and ideas."

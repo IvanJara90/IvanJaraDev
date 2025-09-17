@@ -1,0 +1,17 @@
+/* Style for the theme toggle button when it's inside the menu */
+#menu #theme-toggle {
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    padding: 0;
+    font-size: 24px; /* Adjust size as needed */
+    line-height: var(--header-height); /* Align vertically with other menu items */
+}
+
+/* Ensure the SVG icons inside the button are sized correctly */
+#menu #theme-toggle svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
