@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://ivanjara90.github.io/IvanJaraDev/'
 languageCode = 'en-us'
 title = "IvanJaraDev"
 theme = 'PaperMod'
