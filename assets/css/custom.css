@@ -15,3 +15,15 @@
     height: 24px;
     vertical-align: middle;
 }
+
+/* Custom styles for the profile image */
+.profile img {
+    border: 3px solid var(--primary);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.profile img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
