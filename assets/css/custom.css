@@ -16,14 +16,24 @@
     vertical-align: middle;
 }
 
-/* Custom styles for the profile image */
-.profile img {
+/* Styles for the profile picture on the About page */
+figure.about-profile-pic {
+    display: block;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+figure.about-profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; /* This prevents the image from being distorted */
     border: 3px solid var(--primary);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.profile img:hover {
+figure.about-profile-pic img:hover {
     transform: scale(1.07);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }

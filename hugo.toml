@@ -5,7 +5,7 @@ theme = 'PaperMod'
 
 [params]
   customCSS = ["css/custom.css"]
-  profileMode.enabled = true
+  profileMode.enabled = false
   profileMode.title = "IvanJaraDev"
   profileMode.subtitle = "Welcome to my digital space for code, projects, and ideas."
   profileMode.imageUrl = "images/profile.jpg"
@@ -30,13 +30,13 @@ theme = 'PaperMod'
   identifier = "projects"
   name = "Projects"
   url = "/projects/"
-  weight = 20
+  weight = 10
 
 [[menu.main]]
-  identifier = "resume"
-  name = "Resume"
-  url = "https://drive.google.com/file/d/1oQ21hADwkOgO_q3eBcIgOrdSgRX6f06E/view?usp=sharing"
-  weight = 25
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 20
 
 [[menu.main]]
   identifier = "search"
