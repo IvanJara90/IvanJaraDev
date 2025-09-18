@@ -17,23 +17,22 @@
 }
 
 /* Styles for the profile picture on the About page */
-figure.about-profile-pic {
-    display: block;
-    margin: 0 auto 2rem;
-    text-align: center;
-}
-
-figure.about-profile-pic img {
-    width: 200px;
-    height: 200px;
+img.about-profile-pic {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover; /* This prevents the image from being distorted */
-    border: 3px solid var(--primary);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: 4px solid var(--primary); /* Slightly thicker border */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    display: block;
+    float: right; /* Float to the right */
+    margin-left: 2rem; /* Space between image and text */
+    margin-bottom: 1rem; /* Space below image */
 }
 
-figure.about-profile-pic img:hover {
-    transform: scale(1.07);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+img.about-profile-pic:hover {
+    transform: scale(1.08); /* Slightly more zoom on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Even more pronounced shadow on hover */
+    border-color: var(--secondary); /* Change border color on hover for a modern touch */
 }

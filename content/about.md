@@ -5,7 +5,7 @@ draft = false
 showToc = false
 +++
 
-{{< figure src="/images/profile.jpg" alt="Ivan's Profile Picture" class="about-profile-pic" >}}
+![Ivan's Profile Picture](/images/profile.jpg){.about-profile-pic}
 
 Hello! I'm Ivan, a tech enthusiast with a background in recruitment and a passion for building things with code.
 
