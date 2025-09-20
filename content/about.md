@@ -15,4 +15,4 @@ This website is my digital space to document my projects, share what I'm learnin
 
 When I'm not at my computer, you can find me exploring the vibrant city of Bogotá, Colombia, or planning my next travel adventure.
 
-I'm always open to new opportunities and collaborations. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/ivan-jara-recruter/) or check out my full [resume](https://drive.google.com/file/d/1oQ21hADwkOgO_q3eBcIgOrdSgRX6f06E/view?usp=sharing).
+I'm always open to new opportunities and collaborations. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/ivan-jara-recruter/) or check out my full [resume](https://drive.google.com/file/d/1i6n3s3gKkZDXExv419oyAgktPoNpgubb/view?usp=sharing).
