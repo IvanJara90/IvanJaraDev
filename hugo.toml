@@ -4,8 +4,10 @@ title = "IvanJaraDev"
 theme = 'PaperMod'
 
 [params]
-  customCSS = ["css/custom.css"]
-  profileMode.enabled = true
+  [params.homeInfoParams]
+    Title = "IvanJaraDev"
+    Content = "Welcome to my digital space for code, projects, and ideas."
+  profileMode.enabled = false
   profileMode.title = "IvanJaraDev"
   profileMode.subtitle = "Welcome to my digital space for code, projects, and ideas."
 
@@ -27,6 +29,8 @@ theme = 'PaperMod'
   name = "Projects"
   url = "/projects/"
   weight = 10
+
+
 
 [[menu.main]]
   identifier = "blog"
