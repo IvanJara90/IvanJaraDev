@@ -5,7 +5,7 @@ draft = false
 showToc = false
 +++
 
-![Ivan's Profile Picture](/images/profile.jpg){.about-profile-pic}
+![Ivan's Profile Picture](/images/profile.jpg){.Ivan Jara}
 
 Hello! I'm Ivan, a tech enthusiast with a background in recruitment and a passion for building things with code.
 

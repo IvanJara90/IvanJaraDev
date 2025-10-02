@@ -1,11 +1,11 @@
 baseURL = 'https://ivanjara90.github.io/IvanJaraDev/'
 languageCode = 'en-us'
-title = "IvanJaraDev"
+title = "Development Journal"
 theme = 'PaperMod'
 
 [params]
   [params.homeInfoParams]
-    Title = "IvanJaraDev"
+    Title = "Social Media"
     Content = "Welcome to my digital space for code, projects, and ideas."
   profileMode.enabled = false
   profileMode.title = "IvanJaraDev"

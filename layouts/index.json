@@ -1,0 +1,13 @@
+[
+  {{ range $index, $page := .Site.RegularPages }}
+  {{ if ne $index 0 }},{{ end }}
+  {
+    "uri": "{{ $page.Permalink }}",
+    "title": "{{ $page.Title }}",
+    "tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if ne $tindex 0 }},{{ end }}"{{ $tag }}"{{ end }}],
+    "categories": [{{ range $cindex, $category := $page.Params.categories }}{{ if ne $cindex 0 }},{{ end }}"{{ $category }}"{{ end }}],
+    "description": "{{ $page.Description | plainify }}",
+    "content": {{ $page.Plain | jsonify }}
+  }
+  {{ end }}
+]

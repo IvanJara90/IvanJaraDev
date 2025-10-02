@@ -2,6 +2,7 @@
 title: "HTML Basics: A Beginner's Guide and Cheatsheet"
 date: 2025-09-20
 draft: false
+type: "posts"
 ---
 
 ## Introduction to HTML
