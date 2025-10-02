@@ -4,6 +4,7 @@ title = "Development Journal"
 theme = 'PaperMod'
 
 [params]
+  mainSections = []
   [params.homeInfoParams]
     Title = "Social Media"
     Content = "Welcome to my digital space for code, projects, and ideas."
