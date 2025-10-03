@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/*
+Custom CSS for Ivan's TechCraft
+Applies the Dracula theme for dark mode.
+*/
+
+/* Default Light Theme (PaperMod Default) */
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: rgb(255, 255, 255);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(30, 30, 30);
+    --secondary: rgb(108, 108, 108);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(31, 31, 31);
+    --code-block-bg: rgb(28, 29, 33);
+    --code-bg: rgb(245, 245, 245);
+    --border: rgb(238, 238, 238);
+
+    font-family: 'Inter', sans-serif;
+}
+
+/* Dracula Theme for Dark Mode */
+.dark {
+    --theme: #282A36;           /* Background */
+    --entry: #282A36;           /* Background for posts/entries */
+    --primary: #F8F8F2;         /* Foreground */
+    --secondary: #6272A4;       /* Comment */
+    --tertiary: #6272A4;         /* Comment */
+    --content: #F8F8F2;         /* Foreground */
+    --code-block-bg: #282A36;   /* Background */
+    --code-bg: #44475a;         /* A common Dracula 'current line' color for inline code */
+    --border: #6272A4;          /* Comment */
+}
+
+/* Style links for dark mode */
+.dark a,
+.dark a:visited {
+    color: #BD93F9; /* Purple */
+}
+
+.dark a:hover {
+    color: #FF79C6; /* Pink on hover */
+}
+
+/* Ensure headings also use the primary color */
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: var(--primary);
+}

@@ -4,11 +4,12 @@ title = "Development Journal"
 theme = 'PaperMod'
 
 [params]
+  defaultTheme = "dark"
   mainSections = []
   [params.homeInfoParams]
     Title = "Social Media"
     Content = "Welcome to my digital space for code, projects, and ideas."
-  profileMode.enabled = false
+  profileMode.enabled = true
   profileMode.title = "IvanJaraDev"
   profileMode.subtitle = "Welcome to my digital space for code, projects, and ideas."
 
